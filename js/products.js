@@ -16,6 +16,6 @@ fetch (`https://japceibal.github.io/emercado-api/cats_products/${catID}.json`)
                             <p id="descProd">${data.products[i].description}</p>
                             <p id="precioProd">${data.products[i].currency + ' '+data.products[i].cost}</p>
                             <p id="cantDisp">Cantidad de articulos disponibles: ${data.products[i].soldCount}</p>
-                            <img src="${data.products[i].image} alt="Imagen del producto" id="imgProd">`
+                          <img src="${data.products[i].image}" alt="Imagen del producto" class="imgProd">`
         }
     })
